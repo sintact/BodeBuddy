@@ -34,3 +34,52 @@ Outputs:
   - |H(jω)| in the middle column.
   - Phase of H(jω) in the right column.
 - A Bode plot of the table output, with the magnitude plot on top and the phase plot on bottom.
+
+## How to use
+
+Assuming you have Python3 installed, clone the repository locally, change into the project directory and run the following command:
+
+```bash
+python3 main.py
+```
+
+You will be prompted to enter the transfer function number,
+the radian frequencies of the poles and zeros,
+and the frequency range of s.
+
+Below are some examples of test cases you can try:
+
+**Test Case 1**
+- Transfer function number: 1
+- Zero z1: 500
+- Pole p1: 1000
+- Start frequency: 1
+- Stop frequency: 1E6
+
+**Test Case 2**
+- Transfer function number: 2
+- Zero z1: 1000
+- Zero z2: 5000
+- Pole p1: 2000
+- Pole p2: 10000
+- Start frequency: 1
+- Stop frequency: 1E6
+
+**Test Case 3**
+- Transfer function number: 1
+- Zero z1: 100000
+- Pole p1: 1000000
+- Start frequency: 100
+- Stop frequency: 1E8
+
+**Test Case 4**
+- Transfer function number: 2
+- Zero z1: 50000
+- Zero z2: 100000
+- Pole p1: 500000
+- Pole p2: 2000000
+- Start frequency: 100
+- Stop frequency: 1E8
+
+
+
