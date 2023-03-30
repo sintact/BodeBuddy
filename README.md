@@ -37,10 +37,16 @@ Outputs:
 
 ## How to use
 
-Assuming you have Python3 installed, clone the repository locally, change into the project directory and run the following command:
+Assuming you have Python3 installed, clone this repository locally, change into the project directory and run the following command:
 
-```bash
-python3 main.py
+  ```bash
+  python3 bodebuddy.py
+  ```
+
+You can also import BodeBuddy as a module and use the functions provided within your own applications:
+
+```python
+import bodebuddy as bb
 ```
 
 You will be prompted to enter the transfer function number,
